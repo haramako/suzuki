@@ -21,8 +21,6 @@ class PostsController < ApplicationController
 	# GET /posts/:id
 	def show
 		@post = Post.find(params[:id])
-		p "=== DEBUG_PARAMETA_DISPLAY ==="
-		p @post
 	end
 	
 	# GET /posts
